@@ -1,0 +1,22 @@
+.error {
+    color: red;
+}
+
+.container {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.btn {
+    color: white;
+}
+
+@media (max-width:768px) {
+    .btn-warning {
+        width: 100%;
+    }
+    .text {
+        font-size: 30px;
+    }
+}
